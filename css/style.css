@@ -68,7 +68,7 @@ font-size: large;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 1%}
+	margin-bottom: 2%}
 
 iframe {margin: auto;
     	display: block;
@@ -90,9 +90,10 @@ font-family: 'Acme', sans-serif;}
 .sigle
 	{font-family: 'Acme', sans-serif;
 	color: black;
-	text-decoration: none}
+	text-decoration: none;
+	}
 
-div {box-shadow: 0px 5px 10px grey}
+div {box-shadow: 0px 5px 10px grey;}
 
 table {margin: 5% 0%;
 	font-family: 'Noto Sans JP', sans-serif;
@@ -103,20 +104,33 @@ td {text-align: center;
 	width: 50%;}
 
  .asterisco
- {font-size: small;}
+ {font-size: 80%;
+ 	text-align: center;
+  margin: 2% 20%;
+color: grey}
 
 h3 {text-align: center;
-font-family:'Noto Sans', sans-serif;}
+font-family:'Noto Sans', sans-serif;
+}
 
 h4 {font-family: 'Acme', sans-serif;
 text-align: center}
 
-
+a {text-decoration: none;}
 @media only screen and (max-width: 1200px) {
  nav ul li {
-width: fixed;
-height: fixed;}
+font-size: 2vh}
 .micro {margin-right: 0%}
-.imgbig {margin-top: 40px}
-
+.imgbig {margin-top: 70px}
+a.menu.active {font-size: 2vh}
 }
+
+footer {text-align: center;
+background-color: red;
+padding: 2%;
+font-size: 150%}
+
+.fa-brands {padding: 1%; margin: 0% 7%;
+color: white}
+
+a:hover .fa-brands {color: black;}
