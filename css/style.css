@@ -161,8 +161,12 @@ border-color: black}
   color: red;
 }
 
- a:visited.kanjilink {
-  color: red;
+.kanjilink a {
+ 	color: red;
+ }
+
+ /*a:visited.kanjilink {
+  color: red;*/
 }
 
 .kanjilist a {
