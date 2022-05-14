@@ -157,12 +157,10 @@ border-color: black}
 	margin-bottom: 5%}}
 
 a:link.kanjilink {
-  color: red;}
+  color: red !important}
 
- a:visited.kanjilink {
-  color: red;}
-
-.kanjilink:hover  {color: grey;}
+a:visited.kanjilink {
+  color: red !important}
 
 
 .kanjilist a {
