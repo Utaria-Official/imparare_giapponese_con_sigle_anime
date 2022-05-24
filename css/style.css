@@ -20,12 +20,20 @@ nav ul li
 	margin: 0.5% 3%;
 	} 
 
+nav ul li a:hover {color: red}
+
 h1 {text-align: center;
 	font-family: 'Acme', sans-serif;}
 
 h2 {text-align: center;
 	font-family: 'Noto Sans JP', sans-serif;}
 
+h3 {text-align: center;
+font-family:'Noto Sans', sans-serif;
+}
+
+h4 {font-family: 'Acme', sans-serif;
+text-align: center}
 
 p {text-align: center;
 font-family:'Noto Sans', sans-serif;
@@ -110,14 +118,6 @@ td {text-align: center;
   margin: 2% 20%;
 color: grey}
 
-h3 {text-align: center;
-font-family:'Noto Sans', sans-serif;
-}
-
-h4 {font-family: 'Acme', sans-serif;
-text-align: center}
-
-
 footer {text-align: center;
 background-color: red;
 padding: 2%;
@@ -145,7 +145,11 @@ text-align: center;
 border-style: dotted;
 border-color: black}
 
+.kanjilink {color: red}
 
+.kanjilist a {
+ 	color: red;
+ }
 
 .imgkanji {display: block;
 	width: 25%;
@@ -154,24 +158,6 @@ border-color: black}
 	margin-right: auto;
 	margin-top: 2%;
 	margin-bottom: 5%}
-
-
-
-.kanjilink {color: red}
-
-.kanjilist a {
- 	color: red;
- }
-
-
-a {text-decoration: none;}
-@media only screen and (max-width: 1200px) {
- nav ul li {font-size: 2vh}
-.logo {margin-right: 0%}
-.imgbig {margin-top: 70px}
-a.menu.active {font-size: 2vh}
-.kanjilist {font-size: 700%; margin: 2% 6% 2% 10%}
-.imgkanji {width: 50%}}
 
 .logoimg
 	{display: block;
@@ -208,10 +194,17 @@ margin-left: auto;
 margin-right: auto;
 display: block;}
 
-nav ul li a:hover {color: red}
-
 #documentazioneimg
 {width: 10%;
 height: auto;
 margin: 3% auto;
 display: block;}
+
+a {text-decoration: none;}
+@media only screen and (max-width: 1200px) {
+ nav ul li {font-size: 2vh}
+.logo {margin-right: 0%}
+.imgbig {margin-top: 70px}
+a.menu.active {font-size: 2vh}
+.kanjilist {font-size: 700%; margin: 2% 6% 2% 10%}
+.imgkanji {width: 50%}
