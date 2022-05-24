@@ -62,8 +62,8 @@ font-size: large;
 	margin-left: 1%;
 	margin-right: 45%;
 	width: 5%;}
-/*margin right anche 40vh*/
-.btn
+
+#btn
 	{display: block;
 	width: 20%;
 	height: auto;
@@ -209,3 +209,9 @@ margin-right: auto;
 display: block;}
 
 nav ul li a:hover {color: red}
+
+#documentazioneimg
+{width: 10%;
+height: auto;
+margin: 3% auto;
+display: block;}
